@@ -1,0 +1,228 @@
+/* Verdana, Geneva, Tahoma, sans-serif  */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+
+width: 100%;
+
+height: 60px;
+
+background: #343a40;
+}
+nav{
+
+width: 70%;
+
+margin: auto;
+}
+nav ul{
+
+display: flex;
+
+justify-content: space-between;
+
+align-items: center;
+
+list-style: none;
+}
+nav ul li{
+
+}
+
+nav ul li a{
+    
+text-decoration: none;
+    
+text-transform: uppercase;
+    
+color: #fff;
+
+font-family:  Verdana, Geneva, Tahoma, sans-serif;
+}
+nav ul li a img{
+
+}
+.main_section{
+    background-image: url(../images/70.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 90vh;
+    display: flex;
+}
+.left_content{
+
+width: 75%;
+}
+.text_area{
+
+/* width: 30%; */
+
+margin-left: 30%;
+
+min-height: 90vh;
+
+padding-top: 140px;
+}
+.text_area h1{
+
+color: #fff;
+
+text-transform: uppercase;
+
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+font-weight: 500;
+
+font-size: 25px;
+}
+.text_area p{
+
+font: caption;
+
+color: #fff;
+
+margin-top: 24px;
+}
+.text_area ul{
+
+margin-top: 15px;
+
+list-style: none;
+}
+.text_area ul li{
+
+}
+.text_area ul li a{
+
+text-decoration: none;
+
+color: #fff;
+}
+.text_area ul li a i{
+
+font-size: 18px;
+}
+button{
+    
+padding: 10px;
+    
+border-radius: 50px;
+    
+border: none;
+    
+color: #fff;
+    
+background: #0be881;
+    
+border: 1px solid #0be881;
+    
+cursor: pointer;
+    
+margin-top: 20px;
+    
+margin-left: 25px;
+    
+font-size: 13px;
+    
+text-transform: uppercase;
+}
+span{color: #0be881;}
+
+.right_content{}
+.form_section{
+
+width: 50%;
+
+/* display: flex; */
+
+/* flex-direction: column; */
+
+padding: 50px 0px;
+
+background: #0be881;
+
+margin-top: 50px;
+
+margin-left: 215px;
+}
+
+.form_section h1{
+
+color: #fff;
+
+text-transform: uppercase;
+
+margin-left: 61px;
+
+font-size: 27px;
+}
+.form_section p{
+    
+color: #fff;
+    
+margin-bottom: 40px;
+    
+margin-left: 40px;
+    
+margin-top: 10px;
+}
+form{
+
+width: 100%;
+
+margin-left: 15px;
+}
+.form_section form input{
+    
+width: 90%;
+    
+padding: 8px 0px;
+    
+margin: 5px 0px;
+}
+.form_section form input[type="text"]{
+
+/* font-size: 15px; */
+
+padding: 8px;
+
+width: 85%;
+border: none;
+outline: none;
+}
+.form_section form input[type="email"]{
+    padding: 8px;
+    width: 85%;
+    border: none;
+    outline: none;
+
+}
+.form_section form input[type="password"]{
+    padding: 8px;
+    width: 85%;
+    border: none;
+    outline: none;
+
+
+}
+.form_section form input[type="submit"]{
+    
+background: #27ae60;
+    
+border: none;
+    
+border: 1px solid #27ae60;
+    
+color: #fff;
+    
+cursor: pointer;
+
+border: none;
+}
+
+ 
